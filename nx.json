@@ -1,0 +1,101 @@
+{
+  "npmScope": "tuskdesk-suite",
+  "projects": {
+    "customer-portal": {
+      "tags": ["type:app", "platform:client"]
+    },
+    "customer-portal-e2e": {
+      "tags": ["type:e2e-app", "platform:client"]
+    },
+    "reporting": {
+      "tags": ["type:app", "platform:client"]
+    },
+    "reporting-e2e": {
+      "tags": ["type:e2e-app", "platform:client"]
+    },
+    "shared-utils": {
+      "tags": ["type:util", "platform:client", "platform:server"]
+    },
+    "api": {
+      "tags": ["type:app", "platform:server"]
+    },
+    "shared-ticket-utils": {
+      "tags": ["platform:server", "platform:client", "type:util"]
+    },
+    "shared-user-utils": {
+      "tags": ["platform:server", "platform:client", "type:util"]
+    },
+    "shared-event-log-utils": {
+      "tags": ["platform:server", "platform:client", "type:util"]
+    },
+    "shared-company-utils": {
+      "tags": ["platform:server", "platform:client", "type:util"]
+    },
+    "shared-comment-utils": {
+      "tags": ["platform:server", "platform:client", "type:util"]
+    },
+    "api-e2e": {
+      "tags": ["platform:server", "type:e2e-app", "scope:api"]
+    },
+    "api-tickets-feature": {
+      "tags": ["type:feature", "platform:server"]
+    },
+    "api-tickets-data-access": {
+      "tags": ["type:data-access", "platform:server"]
+    },
+    "api-users-feature": {
+      "tags": ["type:feature", "platform:server"]
+    },
+    "api-users-data-access": {
+      "tags": ["type:data-access", "platform:server"]
+    },
+    "api-event-logs-feature": {
+      "tags": ["type:feature", "platform:server"]
+    },
+    "api-event-logs-data-access": {
+      "tags": ["type:data-access", "platform:server"]
+    },
+    "api-companies-feature": {
+      "tags": ["type:feature", "platform:server"]
+    },
+    "api-companies-data-access": {
+      "tags": ["type:data-access", "platform:server"]
+    },
+    "api-comments-feature": {
+      "tags": ["type:feature", "platform:server"]
+    },
+    "api-comments-data-access": {
+      "tags": ["type:data-access", "platform:server"]
+    },
+    "client-reporting-feature": {
+      "tags": ["type:feature", "scope:reporting", "platform:client"]
+    },
+    "client-shared-tuskdesk-api-data-access": {
+      "tags": [
+        "type:data-access",
+        "platform:client",
+        "scope:reporting",
+        "scope:customer-portal"
+      ]
+    },
+    "client-customer-portal-tickets-feature": {
+      "tags": ["type:feature", "scope:customer-portal", "platform:client"]
+    },
+    "client-customer-portal-tickets-data-access": {
+      "tags": ["type:data-access", "scope:customer-porta"]
+    },
+    "client-customer-portal-authentication-data-access": {
+      "tags": ["type:data-access", "scope:customer-portal", "platform:client"]
+    },
+    "client-shared-asset-utils": {
+      "tags": ["type:util", "platform:client"]
+    }
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  }
+}
